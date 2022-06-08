@@ -20,5 +20,5 @@ Tests if signature for base_file is created correctly.
 
 ### delta_test
 
-Tests id delta for signatutre_file and new_file is created correctky.
+Tests id delta for signatutre_file and new_file is created correctly.
 **Not yet implemented.**
