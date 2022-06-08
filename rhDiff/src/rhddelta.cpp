@@ -28,7 +28,7 @@ namespace rhdiff::delta
             if(newPos == newChunks.size())
                 break;
 
-            if(sigPos < sigChunks.size() && newChunks[newPos].hashValue == sigChunks[sigPos].second)
+            if(sigPos < sigChunks.size() && newChunks[newPos].hashValue() == sigChunks[sigPos].second)
             {
                 // Match
                 ++sigPos;
