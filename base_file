@@ -1,0 +1,1 @@
+Rolling hash works on the priciple that while finding the hash value of the next substring, the window is moved forward only by dropping one character and adding another.In this case character 'a' is removed from substring abc and character 'd' is added next to it to get the substring bcd.
